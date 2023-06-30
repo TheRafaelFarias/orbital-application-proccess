@@ -1,3 +1,4 @@
+import Navbar from '@/components/navbar';
 import { Lilita_One, Londrina_Solid, Poppins } from 'next/font/google';
 import './globals.css';
 
@@ -34,6 +35,7 @@ export default function RootLayout({
         className={`${poppins.variable} ${lilitaOne.className} ${londrinaSolid.variable} bg-white p-8 w-screen h-screen`}
       >
         <main className="bg-primary w-full h-full rounded-[1.25rem]  flex flex-col items-center">
+          <Navbar />
           {children}
         </main>
       </body>
