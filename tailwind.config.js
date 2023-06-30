@@ -7,12 +7,21 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        primary: '#FFD966',
+        text: 'black',
+        navbarNotSelected: '#4D421F',
+        highlight: '#DF2E38',
+        background: 'white',
+        inputPlaceholder: '#665729',
+      },
+      fontFamily: {
+        navbar:
+          'var(--londrinaSolid-font), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace',
+        description:
+          'var(--poppins-font), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace',
       },
     },
   },
   plugins: [],
-}
+};
