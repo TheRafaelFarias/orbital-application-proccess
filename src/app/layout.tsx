@@ -3,7 +3,7 @@ import { Lilita_One, Londrina_Solid, Poppins } from 'next/font/google';
 import './globals.css';
 
 const poppins = Poppins({
-  weight: '700',
+  weight: ['400', '700'],
   subsets: ['latin'],
   variable: '--poppins-font',
 });
