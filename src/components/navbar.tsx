@@ -6,7 +6,7 @@ const Navbar: React.FC = () => {
   const pathname = usePathname();
 
   return (
-    <nav className="flex justify-between p-6 pb-10 pr-10 w-full">
+    <nav className="flex flex-col items-center sm:flex-row sm:justify-between p-6 pb-10 pr-10 w-full">
       <div className="w-14 h-14 rounded-md bg-highlight text-white flex items-center justify-center text-3xl font-primary">
         R
       </div>
