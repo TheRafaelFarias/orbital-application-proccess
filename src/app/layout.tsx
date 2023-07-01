@@ -34,7 +34,7 @@ export default function RootLayout({
       <body
         className={`${poppins.variable} ${lilitaOne.className} ${londrinaSolid.variable} bg-white p-8 w-screen h-screen`}
       >
-        <main className="bg-primary w-full h-full rounded-[1.25rem]  flex flex-col items-center">
+        <main className="bg-primary w-full h-full overflow-y-auto rounded-[1.25rem]  flex flex-col items-center">
           <Navbar />
           {children}
         </main>

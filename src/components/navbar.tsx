@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
       <div className="w-14 h-14 rounded-md bg-highlight text-white flex items-center justify-center text-3xl font-primary">
         R
       </div>
-      <div className="flex space-x-5 py-5 font-navbar text-3xl">
+      <div className="flex space-x-5 py-5 font-navbar text-2xl sm:text-3xl">
         <a
           href="/"
           className={pathname === '/' ? 'text-text' : 'text-navbarNotSelected'}

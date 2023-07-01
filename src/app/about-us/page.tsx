@@ -1,6 +1,6 @@
 const AboutUs: React.FC = () => {
   return (
-    <section className="text-center ml-8 mr-4 md:ml-40 md:mr-32 overflow-y-auto mb-10">
+    <section className="text-center ml-8 mr-4 md:ml-40 md:mr-32 md:overflow-y-auto mb-10">
       <h1 className="text-highlight text-4xl md:text-5xl mb-4">A little more about us</h1>
       <p className="text-xl font-description text-justify font-normal mr-4 md:mr-6">
         Lorem ipsum dolor sit amet consectetur. Nunc tortor a etiam turpis.
