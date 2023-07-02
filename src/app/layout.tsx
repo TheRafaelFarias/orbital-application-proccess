@@ -1,3 +1,4 @@
+import ModalSetup from '@/components/PortalPrepare';
 import Navbar from '@/components/navbar';
 import { Lilita_One, Londrina_Solid, Poppins } from 'next/font/google';
 import './globals.css';
@@ -38,6 +39,7 @@ export default function RootLayout({
           <Navbar />
           {children}
         </main>
+        <ModalSetup />
       </body>
     </html>
   );
