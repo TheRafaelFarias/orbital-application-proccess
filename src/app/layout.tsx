@@ -32,6 +32,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="shortcut icon" type="image/png" href="/Logo.png" />
+        <link rel="icon" type="image/png" href="/Logo.png" sizes="any" />
+      </head>
       <body
         className={`${poppins.variable} ${lilitaOne.className} ${londrinaSolid.variable} bg-white p-8 w-screen h-screen`}
       >
