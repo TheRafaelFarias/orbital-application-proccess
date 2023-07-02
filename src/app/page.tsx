@@ -1,5 +1,6 @@
 import CTAButton from '@/components/CTAButton';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -12,7 +13,9 @@ export default function Home() {
         <p className="text-base md:text-2xl font-description text-navbarNotSelected">
           You won&apos;t regret the taste
         </p>
-        <CTAButton className="mt-6" name="ORDER NOW" />
+        <Link href="/order">
+          <CTAButton className="mt-6" name="ORDER NOW" />
+        </Link>
       </div>
       <div className="w-[350px] h-[300px] md:w-[400px] md:h-[350px] xl:w-[550px] xl:h-[550px] relative">
         <Image
