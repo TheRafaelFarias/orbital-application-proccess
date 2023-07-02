@@ -4,7 +4,7 @@ Here's a preview of the websitehome page
 
 ![Landing page preview](/.github/website-preview.png)
 
-Or you can access in the deployed version
+Or you can access in the [deployed version](https://orbital-application-proccess.vercel.app/order)
 
 ## Run by yourself
 
