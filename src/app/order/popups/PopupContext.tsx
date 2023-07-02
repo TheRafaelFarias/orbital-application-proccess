@@ -34,7 +34,9 @@ export const PopupContext = createContext<PopupContextProps>(
 );
 
 const Popups = {
-  
+  choosePizza: ChoosePizzaPopup,
+  reviewOrderInformation: ReviewOderInformation,
+  success: SuccessPopup,
 };
 
 export const PopupContextProvider: React.FC<PropsWithChildren> = ({
